@@ -33,16 +33,16 @@ Build a retrieval-augmented AI agent in n8n that reads service-related documents
    
 4. **Vector Tool Invocation**: The AI agent uses Supabase Vector Store as a tool to retrieve relevant document chunks based on the user query.
 
-![image](https://github.com/user-attachments/assets/5431589e-07e4-4a7e-ab07-62a0461ba662)
+![image](https://github.com/user-attachments/assets/aef93652-812b-4d93-b961-d089351f6413)
   
 4. **Document Embedding Pipeline**:  
    - A document is uploaded via Google Drive.  
    - The document is parsed by the Default Data Loader.  
    - It is split using the Recursive Character Text Splitter.  
    - Chunks are embedded with OpenAI Embeddings.  
-   - Embedded chunks are stored in Supabase Vector Store.
-  
-![image](https://github.com/user-attachments/assets/aef93652-812b-4d93-b961-d089351f6413)
+   - Embedded chunks are stored in Supabase Vector Store.  
+
+![image](https://github.com/user-attachments/assets/5431589e-07e4-4a7e-ab07-62a0461ba662)
 
 5. **Answer Generation**: Based on retrieved context, the AI agent answers user queries accurately using information from the uploaded documents.
 
