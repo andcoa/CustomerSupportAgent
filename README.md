@@ -4,9 +4,9 @@
 Build a retrieval-augmented AI agent in n8n that reads service-related documents from Google Drive, embeds them into Supabase for vector search, and answers customer inquiries about services, terms, and conditions of a body shop via chat.
 
 ## Skills Learned  
-- **Retrieval-Augmented Generation (RAG)**: Combined LLM reasoning with vector search to enable context-aware answers from policy documents.  
+- **Retrieval-Augmented Generation (RAG)**: Combined LLM reasoning with vector search to enable answers from policy documents.  
 - **Embedding and Vector Storage**: Used OpenAI embeddings with Supabase to store and query documents semantically.  
-- **Persistent Chat Memory**: Implemented PostgreSQL-backed memory to preserve user interaction history across sessions.  
+- **Persistent Chat Memory**: Implemented PostgreSQL memory to preserve user interaction history across sessions.  
 - **Document Pipeline Automation**: Automated ingestion, chunking, and embedding of Drive documents for dynamic knowledge base updates.  
 - **Conversational Agent Design**: Built an interactive AI agent capable of responding accurately to customer queries using internal document knowledge.
 
@@ -18,7 +18,7 @@ Build a retrieval-augmented AI agent in n8n that reads service-related documents
 - **Google Drive**: Source for uploading and accessing service-related documents.  
 - **Supabase Vector Store**: Stored vectorized document chunks for semantic retrieval.  
 - **OpenAI Embeddings**: Transformed text chunks into embeddings suitable for vector storage and retrieval.  
-- **Recursive Character Text Splitter**: Split documents into manageable chunks to improve embedding granularity.  
+- **Recursive Character Text Splitter**: Split documents into manageable chunks to improve embedding.  
 - **Default Data Loader**: Ingested and formatted documents for embedding.  
 
 ## Steps  
