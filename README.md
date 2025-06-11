@@ -41,9 +41,12 @@ Build a retrieval-augmented AI agent in n8n that reads service-related documents
    - It is split using the Recursive Character Text Splitter.  
    - Chunks are embedded with OpenAI Embeddings.  
    - Embedded chunks are stored in Supabase Vector Store.
-     
+  
+![image](https://github.com/user-attachments/assets/aef93652-812b-4d93-b961-d089351f6413)
+
 5. **Answer Generation**: Based on retrieved context, the AI agent answers user queries accurately using information from the uploaded documents.
 
-![image](https://github.com/user-attachments/assets/9a5331d5-1b1a-4783-8996-a083e014d5f2)
+![image](https://github.com/user-attachments/assets/36e8ca0b-c33d-433b-abda-5813b046bdd4)
+
 
 
