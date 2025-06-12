@@ -1,4 +1,4 @@
-# AI Agent for Service Policy Inquiries
+# AI Customer Service Agent
 
 ## Objective  
 Build a retrieval-augmented AI agent in n8n that reads service-related documents from Google Drive, embeds them into Supabase for vector search, and answers customer inquiries about services, terms, and conditions of a body shop via chat.
